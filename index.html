@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag-And-Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="parent" id="parentElem">
+        <div id="child">
+            <p style="font-weight: 500;">Drag & Drop to Upload File</p>
+            <p style="font-weight: bold;">OR</p>
+        </div>
+
+        <label for="fileInput" id="fileLabel" class="upload-btn"><i class="fas fa-upload"></i>Select File</label>
+
+        <input type="file" id="fileInput">
+        <p id="fileName" style="display: none;"></p>
+        <button class="remove-btn" id="removeBtn">
+            <i class="fas fa-trash"></i> Remove
+        </button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
